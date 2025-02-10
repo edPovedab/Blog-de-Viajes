@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio - Blog de Viajes</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Blog de Viajes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre_mi.html">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consejos.html">Consejos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerias.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <h1 id="encabezado-principal">Bienvenido a mi Blog de Viajes</h1>
+            <p class="texto-destacado">Aquí comparto mis experiencias y consejos para viajar por el mundo. Descubre destinos increíbles, tips útiles y mucho más.</p>
+            <a href="destinos.html" class="btn boton-principal">Explorar Destinos</a>
+        </div>
+        <div id="carrusel-principal" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Primera imagen"></button>
+                <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="1" aria-label="Segunda imagen"></button>
+                <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="2" aria-label="Tercera imagen"></button>
+            </div>
+            <div id="carrusel-principal" class="carousel slide mt-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Primera imagen"></button>
+                    <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="1" aria-label="Segunda imagen"></button>
+                    <button type="button" data-bs-target="#carrusel-principal" data-bs-slide-to="2" aria-label="Tercera imagen"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img 
+                            src="imagenes/CostaRica1.jpg" 
+                            srcset="imagenes/CostaRica1.jpg 1920w, imagenes/CostaRica-800.webp 800w" 
+                            sizes="(max-width: 800px) 800px, 1920px" 
+                            class="d-block w-100" 
+                            alt="Costa Rica"
+                            >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Costa Rica</h5>
+                            <p>Un paraíso tropical lleno de naturaleza y aventura.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img 
+                            src="imagenes/francia2.jpeg" 
+                            srcset="imagenes/francia2.jpeg 1920w, imagenes/francia-800.webp 800w" 
+                            sizes="(max-width: 800px) 800px, 1920px" 
+                            class="d-block w-100" 
+                            alt="Francia"
+                            >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Francia</h5>
+                            <p>Descubre la elegancia y la cultura de París.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img 
+                            src="imagenes/suiza1.jpg" 
+                            srcset="imagenes/suiza1.jpg 1920w, imagenes/suiza-800.webp 800w" 
+                            sizes="(max-width: 800px) 800px, 1920px" 
+                            class="d-block w-100" 
+                            alt="Suiza"
+                            >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Suiza</h5>
+                            <p>Explora los encantadores paisajes de Suiza.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-principal" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrusel-principal" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-principal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-principal" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+
+        <footer class="bg-light text-center text-lg-start mt-5 w-100">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2025 Blog de Viajes - Todos los derechos reservados.
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
